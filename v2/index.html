@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWO NINE CRAFT | Luxury Spirit & Brand Consultancy</title>
+    <meta name="description" content="A premium, end-to-end luxury beverage and spirits consulting firm. Bridging the gap from liquid alchemy to cultural brand icons.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Ambient glow decorative spots for premium depth -->
+    <div class="ambient-glow" style="top: 10%; left: -100px;"></div>
+    <div class="ambient-glow" style="top: 50%; right: -150px;"></div>
+    <div class="ambient-glow" style="top: 85%; left: 20%;"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">TWO NINE CRAFT<span>.</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#manifesto" class="active-link">Manifesto</a></li>
+                <li><a href="#curator">Curator</a></li>
+                <li><a href="#alchemy">Alchemy</a></li>
+                <li><a href="#inquiry" class="btn-nav">Enter Parlour</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content reveal">
+                <span class="uppercase-track">Spirit &amp; Brand Curation</span>
+                <h1 style="margin-top: 0.8rem;">We turn liquid<br>into <span class="serif-italic text-accent">legends</span>.</h1>
+                <p>An end-to-end luxury beverage and spirits consultancy. Fusing product alchemy, bespoke vessel design, and cultural narratives into high-margin liquid empires.</p>
+                <div class="hero-buttons">
+                    <a href="#inquiry" class="btn btn-primary">Start the Curation</a>
+                    <a href="#manifesto" class="btn btn-outline">Read Manifesto</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 1: The Manifesto -->
+    <section id="manifesto" class="section bg-peat">
+        <div class="container">
+            <div class="reveal">
+                <span class="uppercase-track">The Manifesto</span>
+                <div class="manifesto-box" style="margin-top: 2rem;">
+                    <div class="manifesto-text">
+                        "Liquid is only half the story. The rest is <span class="serif-italic text-accent">myth</span>."
+                    </div>
+                    <div class="manifesto-detail text-muted">
+                        <p style="margin-bottom: 1.5rem;">TWO NINE CRAFT exists at the intersection of distilling mastery and brand architecture. We don't just scale spirits; we curate stories that sit on the top shelf of global culture.</p>
+                        <p>By fusing liquid development, bottle geometry, tactile packaging, and market strategy into a singular ritual, we design luxury beverage portfolios that capture consumer imagination and command premium prices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: The Spirit Curator (Interactive Tab Feature) -->
+    <section id="curator" class="section bg-obsidian">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="uppercase-track">Interactive Exploration</span>
+                <h2>The Spirit Curator</h2>
+                <p class="text-muted" style="margin-top: 0.8rem;">Explore how we approach design, blending, and audience positioning across different spirit portfolios.</p>
+            </div>
+            
+            <div class="curator-layout reveal">
+                <!-- Curator Tab Menu -->
+                <div class="curator-menu" id="curatorMenu">
+                    <button class="curator-tab active" data-spirit="gin">
+                        <h4>Curiosity Gin</h4>
+                        <p>Alchemic Botanicals</p>
+                    </button>
+                    <button class="curator-tab" data-spirit="whisky">
+                        <h4>Reserve Whisky</h4>
+                        <p>Oak maturation &amp; lineage</p>
+                    </button>
+                    <button class="curator-tab" data-spirit="nonalc">
+                        <h4>Zero-Proof Elixirs</h4>
+                        <p>Modern alternatives</p>
+                    </button>
+                </div>
+                
+                <!-- Curator Display Screen -->
+                <div class="curator-screen" id="curatorScreen">
+                    <div class="curator-display-content" id="curatorContent">
+                        <!-- Dynamic content injected here by JS -->
+                        <h3>Sculpting the Modern Gin Icon</h3>
+                        <p class="display-subtitle">Botanical Curation &amp; Vapor Distillation</p>
+                        <div class="curator-grid">
+                            <div class="curator-copy text-muted">
+                                <p>From selecting rare Himalayan juniper to designing custom copper stills that lock in citrus oils, we design gins with rich mouthfeel and high mixology utility. We balance tradition with progressive botanical profiles.</p>
+                            </div>
+                            <div class="curator-specs">
+                                <div class="spec-item">
+                                    <span>Liquid Architecture</span>
+                                    Crisp pine, vapor-infused cardamom, soft lavender finishes.
+                                </div>
+                                <div class="spec-item">
+                                    <span>The Vessel</span>
+                                    Heavy flint bottle, fluted sides, gold foil botanical decals.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: The Alchemy (Services Grid) -->
+    <section id="alchemy" class="section bg-peat">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="uppercase-track">What We Do</span>
+                <h2>Our Alchemy</h2>
+                <p class="text-muted" style="margin-top: 0.8rem;">A structured, end-to-end framework translating brand dreams into premium commercial realities.</p>
+            </div>
+            
+            <div class="alchemy-grid reveal">
+                <!-- Service 1 -->
+                <div class="alchemy-card">
+                    <div class="card-num">I</div>
+                    <h3>Liquid Architecture</h3>
+                    <p class="text-muted">Sensory blending, botanical selection, spirit sourcing, and raw distillation consulting. We engineer liquids that score high on sensory evaluation and regulatory compliance.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="alchemy-card">
+                    <div class="card-num">II</div>
+                    <h3>Vessel &amp; Narrative</h3>
+                    <p class="text-muted">Bottle shape engineering, stopper styling, premium label textured stocks, and brand story curation. We design packaging that acts as art on shelves and bar backdrops.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="alchemy-card">
+                    <div class="card-num">III</div>
+                    <h3>The Launch Ritual</h3>
+                    <p class="text-muted">Go-to-market strategies, distributor mapping, target pricing model, and premium brand launch activations. We connect your brand to exclusive, high-value tastemakers globally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: The Parlour (Conversational Contact Room) -->
+    <section id="inquiry" class="section bg-obsidian">
+        <div class="container">
+            <div class="parlour-layout reveal">
+                <!-- Parlour info -->
+                <div class="parlour-details">
+                    <span class="uppercase-track">Get in Touch</span>
+                    <h2 style="margin-top: 0.8rem;">The Parlour</h2>
+                    <p class="text-muted">Every premium brand begins with a vision. Tell us about your idea, choose your desired category, and let's craft a classic. Visually state your inquiry using our curator form, or connect directly via our contact channels.</p>
+                    
+                    <div class="quick-contact">
+                        <div class="contact-pill">
+                            <span>Phone Consultation</span>
+                            <a href="tel:+919112456567">+91 91124 56567</a>
+                        </div>
+                        <div class="contact-pill">
+                            <span>Direct Email</span>
+                            <a href="mailto:sameer@twoninecraft.com">sameer@twoninecraft.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Conversational Form -->
+                <div class="conversational-form-wrapper">
+                    <form id="parlourForm">
+                        <div class="conversational-sentence">
+                            I represent 
+                            <input type="text" id="clientIdentity" class="inline-input" placeholder="a distillery / founder" required>
+                            and we wish to develop a premium
+                            <select id="projectCategory" class="inline-select" required>
+                                <option value="Gin">Gin</option>
+                                <option value="Single Malt Whisky">Whisky</option>
+                                <option value="Zero-Proof Spirit">Zero-Proof</option>
+                                <option value="Ready-To-Serve Portfolio">Ready-To-Serve</option>
+                                <option value="Bespoke Design Project">Bespoke Cask</option>
+                            </select>
+                            brand. We aim to target the
+                            <select id="targetMarket" class="inline-select" required>
+                                <option value="Indian Premium Domestic">Indian Domestic</option>
+                                <option value="Global Export">Global Export</option>
+                                <option value="Bespoke Luxury Niche">Bespoke Niche</option>
+                            </select>
+                            market. Please reach me at 
+                            <input type="email" id="clientEmail" class="inline-input" placeholder="your email address" required>
+                            to arrange a tasting.
+                        </div>
+                        <button type="submit" class="btn btn-primary">Initiate Curation</button>
+                        <div id="statusMessage" class="status-box"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <a href="#" class="footer-logo">TWO NINE CRAFT<span>.</span></a>
+                <ul class="footer-nav">
+                    <li><a href="#manifesto">Manifesto</a></li>
+                    <li><a href="#curator">Curator</a></li>
+                    <li><a href="#alchemy">Alchemy</a></li>
+                    <li><a href="#inquiry">Inquiry</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TWO NINE CRAFT. Distilling Identity, Crafting Legacies.</p>
+                <p>All Rights Reserved. Private consultation by invitation only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
